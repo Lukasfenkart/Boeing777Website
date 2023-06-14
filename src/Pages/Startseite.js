@@ -5,7 +5,7 @@ function Startseite() {
   return (
     <div className="w-full bg-[#828594] h-full ">
       <div className=" bg-[#828594] basis-1/2 ">
-        <img className="object-cover w-full" src="./pictures/Boeing777x.jpg"></img>
+        <img className="object-cover w-full" src="./pictures/new777x.png"></img>
       </div>
 
       <div className="flex flex-row justify-around bg-[#000000] w-full py-5 text-slate-50 basis-1/8">
