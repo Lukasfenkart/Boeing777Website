@@ -1,6 +1,6 @@
 import Comparison from "../Components/Comparison";
 import Inhalt from "../Components/Inhalt";
-import Engines from "./Engines";
+import Engines from "../Components/Engines";
 
 function Technic() {
   return (
