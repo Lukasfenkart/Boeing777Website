@@ -1,4 +1,6 @@
+import Comparison from "../Components/Comparison";
 import Inhalt from "../Components/Inhalt";
+import Engines from "./Engines";
 
 function Technic() {
   return (
@@ -34,13 +36,13 @@ function Technic() {
         <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
 
         <div className="flex flex-row">
-          <div className>
+          <div className="w-3/4">
             <img
               className="object-cover rounded-[2rem] p-5"
               src="./pictures/mess2.png"
             ></img>
           </div>
-          <div>
+          <div className="w-2/4">
             <img
               className="object-cover rounded-[2rem] p-5"
               src="./pictures/mess1.png"
@@ -48,33 +50,10 @@ function Technic() {
           </div>
         </div>
       </div>
+      <Comparison />
 
-      <div className="p-5">
-        <h1 className="text-[30px] pb-2">Comparison: 777X vs The World </h1>
-        <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
-        <div className="flex flex-row">
-            <div className="w-1/4 p-3 border-r-2">
-            Boeing 777X: <br />
-            -Length 
-            777X-8 
-            777X-9 71.5m
-            </div>
-            <div className="w-1/4 p-3 border-r-2">
-            Boeing 777-200er:
-            </div>
-            <div className="w-1/4 p-3 border-r-2">
-            Airbus 350-1000:
-                
-            </div>
-            <div className="w-1/4 p-3">
-            Boeing 747-8i:
-            </div>
-
-        </div>
-
-      </div>
+      <Engines />
     </div>
   );
 }
 export default Technic;
-
