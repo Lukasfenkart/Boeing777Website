@@ -3,8 +3,14 @@ import Timeline from "../Components/Timeline";
 function History() {
   return (
     <div>
-      <h1 className="p-5 text-4xl">History</h1>
-      <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
+      <div className="pt-5 pr-5 pl-5">
+        <div className="p-10 pb-7 text-slate-50 bg-slate-800 rounded-t-2xl ">
+          <h1 className="text-4xl pb-5">
+            History - of the 777X
+          </h1>
+          <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-50 to-transparent opacity-25 dark:opacity-100" />
+        </div>
+      </div>
       <Timeline />
 
       <div className="pd-5 text-2xl p-5">
