@@ -15,7 +15,7 @@ function Comparison() {
               src="./pictures/b777x-8.jpg"
             ></img>
             <div className="flex flex-row">
-              <div className="w-1/2 border-r-2 p-1.5 text-sm">
+              <div className="w-1/2 border-r-2 p-5 text-sm">
                 777X-8: <br />
                 -Price: 360,5 mio USD <br />
                 -Seats: 384 <br /> <br />
@@ -27,7 +27,7 @@ function Comparison() {
                 -Engines: 2x GE9X <br />
                 -Thrust: 470.000N
               </div>
-              <div className="w-1/2 p-1.5 text-sm">
+              <div className="w-1/2 p-5 text-sm">
                 777X-9: <br />
                 -Price: 388,7 mio USD <br />
                 -Seats: 414 <br /> <br />
@@ -49,7 +49,7 @@ function Comparison() {
               src="./pictures/b777-200er.jpg"
             ></img>
             <div className="flex flex-row">
-              <div className="w-1/2 border-r-2 p-1.5 text-sm">
+              <div className="w-1/2 border-r-2 p-5 text-sm">
                 777-200er: <br />
                 -Price: 306,6 mio USD <br />
                 -Seats: 440 <br /> <br />
@@ -61,7 +61,7 @@ function Comparison() {
                 -Engines: 2x PW 4090RR <br />
                 -Thrust: 400.000N
               </div>
-              <div className="w-1/2 p-1.5 text-sm">
+              <div className="w-1/2 p-5 text-sm">
                 777-300er: <br />
                 -Price: 375,5 mio USD <br />
                 -Seats: 550 <br /> <br />
@@ -83,7 +83,7 @@ function Comparison() {
               src="./pictures/A350-900.jpg"
             ></img>
             <div className="flex flex-row">
-              <div className="w-1/2 border-r-2 p-1.5 text-sm">
+              <div className="w-1/2 border-r-2 p-5 text-sm">
                 350-900: <br />
                 -Price: 304,8 mio USD <br />
                 -Seats: 314 <br /> <br />
@@ -95,7 +95,7 @@ function Comparison() {
                 -Engines: RR Trent XWB <br />
                 -Thrust: 374.000N
               </div>
-              <div className="w-1/2 p-1.5 text-sm">
+              <div className="w-1/2 p-5 text-sm">
                 350-1000: <br />
                 -Price: 351,9 mio USD <br />
                 -Seats: 350 <br /> <br />

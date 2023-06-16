@@ -7,9 +7,16 @@ function Technic() {
     <div>
       <div className="pt-5 pr-5 pl-5">
         <div className="p-10 pb-7 text-slate-50 bg-slate-800 rounded-t-2xl rounded-bl-2xl ">
-          <h1 className="text-4xl pb-5">
+          <div className="flex flex-row">
+          <div className="w-8.5/12">
+          <h1 className="text-4xl pb-5 pr-[9.5rem]">
             Engineering/Tec - All Data about the 777X
           </h1>
+          </div>
+          <div>
+          <h1 className="text-3xl">Technical Data: </h1> <p className="text-[16px]">on this page</p>
+          </div>
+          </div>
           <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-50 to-transparent opacity-25 dark:opacity-100" />
         </div>
       </div>
@@ -31,8 +38,8 @@ function Technic() {
         <Inhalt />
       </div>
 
-      <div className="p-5">
-        <h1 className="text-[30px] pb-2">Measurement:</h1>
+      <div className="p-5 pt-1">
+        <h1 className="text-[30px] pb-2 ">Measurement:</h1>
         <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
 
         <div className="flex flex-row">
