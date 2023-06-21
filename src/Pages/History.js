@@ -5,36 +5,34 @@ function History() {
     <div>
       <div className="pt-5 pr-5 pl-5">
         <div className="p-10 pb-7 text-slate-50 bg-slate-800 rounded-t-2xl ">
-          <h1 className="text-4xl pb-5">
-            History - of the 777X
-          </h1>
+          <h1 className="text-4xl pb-5">History - of the 777X</h1>
           <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-50 to-transparent opacity-25 dark:opacity-100" />
         </div>
       </div>
       <Timeline />
 
       <div className="pd-5 text-2xl p-5">
-        
         <div className="text-2xl ">
           <div className=" bg-slate-200 rounded-2xl">
-          <h1 className=" text-3xl p-5 ">1986</h1>
-          <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
+            <h1 className=" text-3xl p-5 ">1986</h1>
+            <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
 
             <div className="flex flex-row">
-            <div className="w-3/5 p-5 pt-10">
-              The Boeing 777, commonly referred to as the Triple Seven, is an
-              American long-range wide-body airliner developed and manufactured
-              by Boeing Commercial Airplanes. It is the world's largest twinjet.
-              The 777 was designed to bridge the gap between Boeing's other wide
-              body airplanes, the twin-engined 767 and quad-engined 747, and to
-              replace older DC-10s and L-1011 trijets.
-            </div>
-            <div className="w-2/5">
-              <img
-                className="object-cover rounded-[2rem] p-5"
-                src="./pictures/777release.jpg"
-              ></img>
-            </div>
+              <div className="w-3/5 p-5 pt-10">
+                The Boeing 777, commonly referred to as the Triple Seven, is an
+                American long-range wide-body airliner developed and
+                manufactured by Boeing Commercial Airplanes. It is the world's
+                largest twinjet. The 777 was designed to bridge the gap between
+                Boeing's other wide body airplanes, the twin-engined 767 and
+                quad-engined 747, and to replace older DC-10s and L-1011
+                trijets.
+              </div>
+              <div className="w-2/5">
+                <img
+                  className="object-cover rounded-[2rem] p-5"
+                  src="./pictures/777release.jpg"
+                ></img>
+              </div>
             </div>
           </div>
 
@@ -124,32 +122,28 @@ function History() {
             <h1 className=" text-3xl p-5">2010s</h1>
             <hr class="h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 dark:opacity-100" />
             <div className="flex flex-row ">
-              
               <div className="p-5 pt-10 w-3/5">
                 The Boeing 777X is the latest series of the long-range,
                 wide-body, twin-engine jetliners in the Boeing 777 family. The
                 777X was launched in November 2013 with two variants: the 777-8
-                and the 777-9. <br /> <br />The 777X program was proposed in the early 2010s
-                with assembly at the Boeing Everett Factory and the wings built
-                at a new building adjacent to the Everett factory. As of
-                February 2023, there are 363 total orders for the 777X passenger
-                and freighter versions from ten identified customers and other
-                buyers. <br /> <br />In 2011, Boeing refined its response to the revamped
-                Airbus A350 XWB with three 777X models, targeting a firm
-                configuration in 2015, flying in late 2017 or 2018, and entering
-                service by 2019.
+                and the 777-9. <br /> <br />
+                The 777X program was proposed in the early 2010s with assembly
+                at the Boeing Everett Factory and the wings built at a new
+                building adjacent to the Everett factory. As of February 2023,
+                there are 363 total orders for the 777X passenger and freighter
+                versions from ten identified customers and other buyers. <br />{" "}
+                <br />
+                In 2011, Boeing refined its response to the revamped Airbus A350
+                XWB with three 777X models, targeting a firm configuration in
+                2015, flying in late 2017 or 2018, and entering service by 2019.
               </div>
               <div className="w-2/5">
-                <div className="p-5 pb-0 font-medium">
-                  Roll Out 777X
-                </div>
+                <div className="p-5 pb-0 font-medium">Roll Out 777X</div>
                 <img
                   className="object-cover rounded-[2rem] p-5"
                   src="./pictures/777X_Roll-Out.jpg"
                 ></img>
-                <div className="p-5 pb-0 font-medium">
-                  First Flight
-                </div>
+                <div className="p-5 pb-0 font-medium">First Flight</div>
                 <img
                   className="object-cover rounded-[2rem] p-5"
                   src="./pictures/first-flight-777x.jpeg"
@@ -159,7 +153,6 @@ function History() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
