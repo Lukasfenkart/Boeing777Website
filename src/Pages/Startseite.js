@@ -3,7 +3,7 @@ import Title from "../Components/Title";
 
 function Startseite() {
   return (
-    <div className="w-full bg-[#828594] h-full ">
+    <div className="w-full bg-[#828594] h-full">
       <div className=" bg-[#828594] basis-1/2 ">
         <img className="object-cover w-full" src="./pictures/new777x.png"></img>
       </div>
@@ -12,7 +12,7 @@ function Startseite() {
         <Buttons text="Engineering/Tec" link="/technic" />
         <Buttons text="History" link="/history" />
         <Buttons text="Variants" link="/variants" />
-        <Buttons text="Destinations" link="/destinations" />
+        <Buttons text="Live Flights" link="/destinations" />
       </div>
 
       <div className="w-full bg-[#000000] rounded-b-3xl rounded-bl-3x1 text-slate-50 basis-1/8">
