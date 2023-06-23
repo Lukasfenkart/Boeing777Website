@@ -72,23 +72,23 @@ function ApiRequest() {
     return (
         <div className="h-screen flex flex-col">
             <div className="flex flex-row   text-xl">
-                <div className="basis-1/6 bg-slate-100 p-2 rounded-bl-xl rounded-br-md">Departure</div>
-                <div className="basis-1/6 bg-slate-200 p-2 rounded-b-md">Arrival</div>
-                <div className="basis-1/6 bg-slate-300 p-2 rounded-b-md">Aircraft</div>
-                <div className="basis-1/6 bg-slate-400 p-2 rounded-b-md">Airline</div>
-                <div className="basis-1/6 bg-slate-500 p-2 rounded-b-md">Altitude</div>
-                <div className="basis-1/6 bg-slate-600 p-2 rounded-b-md">Speed</div>
+                <div className="basis-3/12 bg-slate-100 p-2 rounded-bl-xl rounded-br-md">Departure</div>
+                <div className="basis-3/12 bg-slate-200 p-2 rounded-b-md">Arrival</div>
+                <div className="basis-2/12 bg-slate-300 p-2 rounded-b-md">Aircraft</div>
+                <div className="basis-2/12 bg-slate-400 p-2 rounded-b-md">Airline</div>
+                <div className="basis-1/12 bg-slate-500 p-2 rounded-b-md">Altitude</div>
+                <div className="basis-1/12 bg-slate-600 p-2 rounded-b-md">Speed</div>
 
             </div>
             {
                 flights.map((flight) => {
                     return (<div className="w-full flex flex-row px-4 border py-2 ">
-                        <div className="basis-1/6">{flight.Departure ? flight.Departure : ""}</div>
-                        <div className="basis-1/6">{flight.Arrival ? flight.Arrival : ""}</div>
-                        <div className="basis-1/6">{flight.aircraft_icao}</div>
-                        <div className="basis-1/6">{flight.Airline}</div>
-                        <div className="basis-1/6">{flight.alt} m</div>
-                        <div className="basis-1/6">{flight.speed}km/h</div>
+                        <div className="basis-3/12 p-2">{flight.Departure ? flight.Departure : ""}</div>
+                        <div className="basis-3/12 p-2">{flight.Arrival ? flight.Arrival : ""}</div>
+                        <div className="basis-2/12 p-2">{flight.aircraft_icao}</div>
+                        <div className="basis-2/12 p-2">{flight.Airline}</div>
+                        <div className="basis-1/12 p-2">{flight.alt} m</div>
+                        <div className="basis-1/12 p-2">{flight.speed}km/h</div>
 
                     </div>)
                 })
